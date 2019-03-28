@@ -2,6 +2,10 @@ import ItemList from '../index';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+test( 'abc', () => {
+	expect( 2 ).toEqual( 2 );
+} );
+
 test( 'renders "no-items" when the item list is empty', () => {
 
 	const container = document.createElement('div');
