@@ -1,4 +1,5 @@
 import React from 'react';
+import LoginForm from "./components/login-form";
 
 class App extends React.Component {
 
@@ -6,6 +7,7 @@ class App extends React.Component {
 		return(
 			<div className="said">
 				This is App.js
+				<LoginForm/>
 			</div>
 		);
 	}
